@@ -1,0 +1,112 @@
+/*--------------------------------- LINKS / CODE ----------------------------------------*/
+a {
+color:#222;
+transition: color 0.2s linear 0s;
+/* Firefox 4 */
+-moz-transition: color 0.2s linear 0s;
+/* Safari and Chrome */
+-webkit-transition: color 0.2s linear 0s;
+/* Opera */
+-o-transition: color 0.2s linear 0s;
+}
+a:hover,em,code,h1.title {
+color:#754792;
+}
+#logo h1.logostyle {
+	
+	color:#fff;
+}
+
+span.ico:hover { color: #fff; transform: rotate(360deg); }
+
+.tp-caption.big_color{
+background-color:#754792;	
+/*letter-spacing: -1.5px;	*/									
+}
+
+/*--------------------------------- MOSAIC ----------------------------------------*/
+
+#main .sprocket-mosaic .sprocket-mosaic-order ul li, #main .sprocket-mosaic .sprocket-mosaic-order ul li, .sprocket-mosaic .sprocket-mosaic-order li, .sprocket-mosaic .sprocket-mosaic-order li {
+background-color:#754792;
+color:#fff!important;
+}
+.sprocket-mosaic h2 {
+background-color:#754792;
+}
+.sprocket-tabs-nav {
+background: #754792;
+}
+
+
+/*--------------------------------- BUTTON ----------------------------------------*/
+button, a.button-default,a.button-primary, a.button-small {
+background-color:#754792;
+color:#fff!important;
+padding:12px 16px;
+}
+a.button-default:hover,a.button-primary:hover, a.button-small:hover {
+background-color:#000;
+color:#fff!important;
+}
+/*--------------------------------- MODULE ----------------------------------------*/
+.mod-clean3 h3 {
+background:#754792;
+color:#FFF;
+padding:8px 15px;
+}
+.mod-border-left {
+border-left:4px solid #754792!important;
+}
+.mod-border-top {
+border-top:4px solid #754792!important;
+}
+.mod-border-right {
+border-right:4px solid #754792!important;
+}
+.mod-border-bottom {
+border-bottom:4px solid #754792!important;
+}
+
+.mod-color {
+background-color:#754792!important;
+color:#FFF;
+}
+.mod-color a:link,.mod-color a:visited {
+color:#fff;
+}
+
+.mod-color a:hover {
+text-decoration:underline;
+}
+
+.mod-color h1,.mod-color h2,.mod-color h3,.mod-color h4,.mod-color h5,.mod-color h6 {
+color:#fff;
+}
+
+.mod-color h3 {
+color:#FFF;
+padding:8px 0;
+}
+.mod-color span.color {
+color:#fff;
+}
+.mod-color button {
+color:#754792!important;
+background-color:#FFFFFF;
+}
+
+/*--------------------------------------------- MENU -------------------------------------------------------*/
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover,
+.menu-sidebar a:hover > span,
+.menu-sidebar span:hover > span {
+color:#754792;
+}
+.menu-dropdown li.active .level1 {
+background-color: #754792;
+}
+
+span.ico {
+background: none repeat scroll 0 0 #754792;
+}
+

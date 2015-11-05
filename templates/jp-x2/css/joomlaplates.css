@@ -1,0 +1,607 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+/*
+ * Dont edit this style, please edit the CUSTOM.CSS if you want to customize the theme
+ */
+/* --------------------------------------------- BASIC -------------------------------------------------------*/
+html{
+    overflow-y: auto;
+}
+
+body { 
+  -webkit-background-size: cover!important;
+  -moz-background-size: cover!important;
+  -o-background-size: cover!important;
+  background-size: cover!important;
+  margin:0;
+  padding:0;
+}
+
+ul, ol, dl {
+	padding-left: 0!important;
+}
+ul, ol {
+	margin-left: 15px;
+}
+input, textarea, .uneditable-input {
+    width: auto;
+}
+/* --------------------------------------------- VIDEO -------------------------------------------------------*/
+
+
+
+#bgvid { 
+position: fixed;
+right: 0;
+bottom: 0;
+width: auto;
+min-width: 100%;
+height: auto;
+min-height: 100%;
+background-size: cover;
+}
+
+#buttonbar {
+	position:absolute;
+	right:0;
+	top:50px;
+	z-index:9999;
+}
+/* --------------------------------------------- TOOLBAR -------------------------------------------------------*/
+.jp-toolbar-outer {
+position: relative;
+z-index:4;
+width:100%;
+background-color:#fff;
+border-bottom:1px soolid #ccc;
+}
+
+#toolbar {
+color:#000;
+font-size:12px;
+line-height:40px;
+margin-bottom:0;
+}
+
+#toolbar a,#toolbar a:visited {
+color:#000;
+}
+
+#toolbar a:hover {
+color:#ccc;
+}
+
+/* --------------------------------------------- LOGO & MENU-------------------------------------------------------*/
+#headerbar .module {
+float: none;
+margin-right: 0;
+}
+#header,#headerbar {
+margin:0;
+}
+
+.main-outer, .bottom-d-outer, .footer-outer {
+margin:0 auto
+}
+
+.menu-outer {
+width:100%;
+margin:0 auto;
+position: relative;
+}
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 1040px) {
+	.menu-outer {
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.shadow-img {
+		margin:0 0 20px 0!important;
+		float:none!important;
+	}
+	
+	#bgvid { display: none; }
+	#buttonbar {
+	display:none;
+}
+
+}
+
+#menubar {
+float:right; 
+position:relative;
+}
+
+.main-outer {
+padding:40px 0;
+background:#f9f9f9 url(../images/main-outer-bg.gif) repeat-x top; 
+position:relative;
+}
+
+#logo {
+text-align:left;
+float:left;
+}
+#logo p {
+margin:0
+}
+#logo img {
+opacity:1;
+}
+
+#logo h1.logostyle {
+	font-size:70px;
+	height:120px;
+	margin:0;
+	line-height:120px;
+	padding:10px;
+}
+.logo h1 {
+	color:#fff;
+}
+
+#menu { 
+position: relative; 
+float:right;
+}
+
+#menubar {
+margin:0;
+}
+
+
+/* --------------------------------------------- Top and Bottom Module -------------------------------------------------------*/
+.bottom-a-outer,.bottom-b-outer,.bottom-c-outer,.bottom-d-outer,.top-a-outer,.top-b-outer,.top-c-outer,.top-d-outer {
+	position:relative;
+	width:100%;
+}
+
+#bottom-a,#bottom-b,#bottom-c,#bottom-d,#top-a,#top-b,#top-c,#top-d {
+	padding:40px 0;
+}
+/* --------------------------------------------- TOP MODULE COLORS -------------------------------------------------------*/
+.top-a-outer {
+	background-color:#f9f9f9;
+}
+.top-b-outer {
+	background-color:#fff;
+}
+.top-c-outer {
+	background-color:#f9f9f9;
+}
+.top-d-outer {
+	background-color:#fff;
+}
+/* --------------------------------------------- BOTTOM MODULE COLORS -------------------------------------------------------*/
+.bottom-a-outer {
+	background-color:#fff;
+}
+.bottom-b-outer {
+	background-color:#f9f9f9;
+}
+.bottom-c-outer {
+	background-color:#fff;
+}
+/* --------------------------------------------- Google Map -------------------------------------------------------*/
+#map {
+	font-size:0;
+	line-height:0;
+	-webkit-transition:opacity 500ms ease-out;
+	-moz-transition:opacity 500ms ease-out;
+	-o-transition:opacity 500ms ease-out;
+	transition:opacity 500ms ease-out;
+	opacity:0.6
+}
+#map:hover {
+	opacity:0.9
+}
+
+/* --------------------------------------------- BOTTOM D MODULE DARK -------------------------------------------------------*/
+.bottom-d-outer ul.line > li {
+border-top:1px solid #333!important;
+}
+
+.bottom-d-outer {
+color:#fff;
+padding:20px 0;
+}
+#bottom-d h1, #bottom-d h2, #bottom-d h3, #bottom-d h4, #bottom-d h5, #bottom-d h6 {
+color:#fff
+}
+
+/* --------------------------------------------- FOOTER -------------------------------------------------------*/
+
+.footer-outer {
+position:relative;
+z-index:0;
+padding:20px 0;
+color:#fff;
+}
+
+.footer-outer p {
+margin:0;
+}
+
+.footer-outer a,.footer-outer a:visited,.bottom-d-outer a,.bottom-d-outer a:visited {
+color:#fff;
+}
+
+.footer-outer a:hover,.bottom-d-outer a:hover {
+color:#ccc;
+}
+
+#footer {
+margin:0;
+}
+
+.breadcrumbs {
+padding:10px 0;
+border-bottom:1px solid #eee;
+margin-bottom:30px;
+}
+
+
+/*--------------------------------------------- MENU -------------------------------------------------------*/
+
+/* List Menu */
+.menu-line li {
+background: none;
+}
+/*--------------------------------------------- MENU -------------------------------------------------------*/
+.menu-dropdown {
+margin-bottom: 0;
+}
+.menu-dropdown li.level1 {
+margin-right:0;
+border:none;
+padding-bottom:0;
+text-shadow:0;
+}
+.menu-dropdown li.active .level1 {
+color: #fff;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1 {
+transition: background-color 0.2s linear 0s;
+/* Firefox 4 */
+-moz-transition: background-color 0.2s linear 0s;
+/* Safari and Chrome */
+-webkit-transition: background-color 0.2s linear 0s;
+/* Opera */
+-o-transition: background-color 0.2s linear 0s;
+border:none;
+color: #fff;
+}
+.menu-dropdown a.level1 > span, .menu-dropdown span.level1 > span {
+height: 30px;
+line-height: 30px;
+padding: 4px 14px;
+}
+.menu-dropdown li.level1:hover .level1,.menu-dropdown li.remain .level1 {
+color: #000;
+background-color:#fff;
+
+}
+/* 2 second level dropdown menu */
+.menu-dropdown .dropdown-bg > div {
+border:none;
+background:#fff;
+text-align:left;
+color:#000;
+}
+.menu-dropdown .dropdown-bg a {
+color:#000;
+}
+.menu-dropdown .dropdown {
+border-top:none;
+top:38px;
+}
+/* 2 second level links */
+.menu-dropdown a.level2, .menu-dropdown span.level2 {
+color: #000;
+}
+.menu-dropdown li.level2 {
+border-top: 1px solid #f5f5f5;
+}
+
+.menu-dropdown a.level3, .menu-dropdown span.level3 {
+color: #000;
+}
+
+
+/*------------------------------------------- MODULE ---------------------------------------------------------*/
+.module {
+margin:15px;
+}
+.mod-blank-center h3 {
+text-align:center!important
+}
+
+
+.mod-blank,
+.mod-blank-center {
+border:none!important;
+padding:0!important;
+margin:0!important;
+background:none!important;
+}
+
+.mod-clean1,.mod-clean2,.mod-clean3 {
+border:none!important;
+padding:0!important;
+margin:15px!important;
+background:none!important;
+}
+
+.mod-clean1 h3 {
+color:#000;
+padding:8px 0;
+border-bottom:1px solid #ededed;
+}
+
+.mod-clean2 h3 {
+background:#fff;
+color:#000;
+border:1px solid #ccc;
+padding:8px 15px;
+}
+
+.mainsite .mod-box {
+border:1px solid #efefef;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#fff;
+margin:15px;
+padding:30px;
+}
+
+.mod-box {
+border:1px solid #efefef;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#fdfdfd;
+margin:15px;
+padding:30px;
+}
+
+.mod-shadow {
+border:1px solid #fff;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#fdfdfd;
+margin:15px;
+-moz-box-shadow:0 0 0 10px #ccc;
+-webkit-box-shadow:0 0 10px 0 #ccc;
+box-shadow:0 0 10px 0 #ccc;
+}
+.mod-border {
+border:1px solid #ccc;
+margin:15px;
+background-color:#FFF;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius:0;
+
+}
+
+.mod-color {
+border:none;
+color:#fff!important;
+padding:30px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+
+.mod-color a:link,.mod-color a:visited {
+color:#fff;
+}
+
+.mod-color a:hover {
+color:#ccc;
+}
+
+.mod-color h1,.mod-color h2,.mod-color h3,.mod-color h4,.mod-color h5,.mod-color h6 {
+color:#fff;
+}
+
+/* -------------------------------------- IMAGE TOOLS --------------------------------------------------------------*/
+a.img, img.a {border:none}
+
+img {
+height:auto;
+max-width:100%;
+}
+.shadow-img {
+box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.3);
+-moz-box-shadow:  0 -4px 25px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow:  0 -4px 25px rgba(0, 0, 0, 0.3);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.img-shadow {
+-moz-box-shadow:0 0 0 5px #999;
+-webkit-box-shadow:0 0 5px 0 #999;
+box-shadow:0 0 5px 0 #999;
+max-width:100%;
+}
+
+.img-border {
+padding:4px;
+background:#fff;
+border:1px solid #eee;
+max-width:100%;
+}
+
+.img-polaroid {
+-moz-box-shadow:0 0 0 10px #ccc;
+-webkit-box-shadow:0 0 10px 0 #ccc;
+box-shadow:0 0 10px 0 #ccc;
+max-width:100%;
+padding:5px;
+margin:5px;
+background:#fff;
+}
+.screenshots {
+-moz-box-shadow:0 0 0 10px #ccc;
+-webkit-box-shadow:0 0 10px 0 #ccc;
+box-shadow:0 0 10px 0 #ccc;
+max-width:100%;
+padding:5px;
+margin:7px;
+background:#fff;
+}
+
+img.align-right {
+-moz-box-shadow:0 0 0 5px #DDD;
+-webkit-box-shadow:0 0 5px 0 #DDD;
+box-shadow:0 0 5px 0 #DDD;
+max-width:100%;
+}
+
+a.lightbox-color {
+float:left;
+border:1px solid #ededed;
+padding:2px;
+margin:5px;
+}
+
+#back-top {
+position:fixed;
+bottom:30px;
+right:30px;
+
+}
+
+#back-top a {
+width:50px;
+display:block;
+text-align:center;
+font:11px/100% Arial, Helvetica, sans-serif;
+text-transform:uppercase;
+text-decoration:none;
+color:#bbb;
+-webkit-transition:1s;
+-moz-transition:1s;
+transition:1s;
+}
+
+#back-top span:hover {
+color:#000;
+background-color:rgba(0,0,0,0.8);
+
+}
+
+#back-top span {
+width:56px;
+height:59px;
+display:block;
+margin-bottom:7px;
+background:url(../images/up-arrow.png) no-repeat center center;
+-webkit-transition:1s;
+-moz-transition:1s;
+transition:1s;
+color:#222;
+background-color:rgba(0,0,0,0.2);
+
+}
+
+
+/* -------------------------------------- BUTTON --------------------------------------------------------------*/
+a.button-blue, .button-blue {
+background-color:#3498db;
+color:#fff!important;
+padding:6px 10px;
+}
+a.button-green, .button-green {
+background-color:#1abc9c;
+color:#fff!important;
+padding:6px 10px;
+}
+a.button-yellow, .button-yellow {
+background-color:#ffd46c;
+color:#222!important;
+padding:6px 10px;
+}
+
+a.button-default,a.button-primary {
+border:none;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+
+button {
+padding:6px 10px;
+border:none;
+}
+
+/* -------------------------------------- MODERN PICS WEBFONT --------------------------------------------------------------*/
+@font-face {
+font-family: "modern_pictogramsnormal";
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/modernpics-webfont.eot') format("embedded-opentype"), url('../fonts/modernpics-webfont.woff') format("woff"), url('../fonts/modernpics-webfont.ttf') format("truetype"), url('../fonts/modernpics-webfont.svg') format("svg");
+}
+
+span.ico {
+background: none repeat scroll 0 0 #000;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+display: block;
+font-family: 'modern_pictogramsnormal';
+font-size: 70px;
+height: 100px;
+line-height: 100px;
+margin: 0 auto 12px;
+transition: all 0.4s ease-in-out 0s;
+width: 100px;
+text-align:center;
+color:#fff;
+}
+li.yes {
+	background: url("../images/tools/list_check.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding: 4px 0 0 30px;
+	list-style: none outside none;
+}
+
+li.no {
+    background: url("../images/notice-alert.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding: 4px 0 0 30px;
+	list-style: none outside none;
+
+}
+
+/* --------------------------------------------- Special Style for Slider h1 and h2 -------------------------------------------------------*/
+img.op-effect {
+	-webkit-transition:opacity 500ms ease-in-out;
+	-moz-transition:opacity 500ms ease-in-out;
+	-o-transition:opacity 500ms ease-in-out;
+	transition:opacity 500ms ease-in-out;
+	opacity:0.4
+}
+img.op-effect:hover {
+	opacity:1
+}
+/* --------------------------------------------- Special Style for Paypal Button -------------------------------------------------------*/
+
+.paypal input.button-default {
+    background-color: #39f;
+    color: #fff !important;
+    padding: 12px 16px;
+	border:none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:5px;
+	font-size:14px;
+}
+.paypal input.button-default:hover {
+    background-color:#0066FF;
+}

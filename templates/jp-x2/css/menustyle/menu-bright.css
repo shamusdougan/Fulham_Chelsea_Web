@@ -1,0 +1,11 @@
+.menu-outer {
+	background-color: #FFF;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1 {
+	border:none;
+	color: #000;
+}
+.menu-dropdown li.level1:hover .level1,.menu-dropdown li.remain .level1 {
+	color: #fff;
+	background-color:#222;
+}

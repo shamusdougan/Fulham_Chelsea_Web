@@ -1,0 +1,44 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+ 
+ 
+ .sap_top_contact
+ {
+ width: 600px;
+ height: 50px;
+ background-color: #58585a;
+ position: relative;
+ top: 3px;
+ 
+ 	
+ 	
+ }
+ 
+ 
+ .sap_phone_number
+ {
+ float: left;
+ width: 400px;
+ height: 50px;
+ }
+ 
+ .sap_top_icons
+ 	{
+	float: right;
+	height: 50px;
+	width: 135px;
+	background-image: url('../images/email.png');
+	background-repeat: no-repeat;
+ 	}
+ 	
+ 	
+ .sap_top_icons:hover
+ 	{
+	
+	background-image: url('../images/email_mouseover.png');
+	
+ 	}
