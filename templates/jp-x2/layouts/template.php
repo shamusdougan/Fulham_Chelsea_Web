@@ -51,7 +51,7 @@ body{background-color:#<?php echo $this['config']->get('bg-color'); ?>}
 
 <body id="page" class="page <?php echo $this['config']->get('body_classes'); ?>" data-config='<?php echo $this['config']->get('body_config','{}'); ?>'>
 <?php if ($this['config']->get('video')) : ?>
-      <video autoplay loop poster="<?php echo $this['config']->get('video-img'); ?>" id="bgvid">
+      <video muted autoplay loop poster="<?php echo $this['config']->get('video-img'); ?>" id="bgvid">
       <source src="<?php echo $this['config']->get('video-webm'); ?>" type="video/webm">
       <source src="<?php echo $this['config']->get('video-mp4'); ?>" type="video/mp4">
     </video>

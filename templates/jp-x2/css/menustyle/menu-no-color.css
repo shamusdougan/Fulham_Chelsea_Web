@@ -1,3 +1,7 @@
 .menu-outer {
-	background:none;
+	background-image: url('../../images/header-bg-bar.png');
+	background-repeat: repeat-x;
+	
+
+
 }
