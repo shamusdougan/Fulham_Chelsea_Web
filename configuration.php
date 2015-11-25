@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'fcbuildi_webusr';
-	public $password = ',HX6!(5f[Ob5';
+	public $password = 'LDR3lEtKyepT';
 	public $db = 'fcbuildi_web';
 	public $dbprefix = 'af8ks_';
 	public $live_site = '';
