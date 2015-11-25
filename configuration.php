@@ -13,9 +13,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'fulhamchelsea_us';
-	public $password = '2VftuvMZ8zKZ6sVr';
-	public $db = 'fulham_chelsea';
+	public $user = 'fcbuildi_webusr';
+	public $password = ',HX6!(5f[Ob5';
+	public $db = 'fcbuildi_web';
 	public $dbprefix = 'af8ks_';
 	public $live_site = '';
 	public $secret = 'Q7z6VWLF6AMXbNex';
