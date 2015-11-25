@@ -58,7 +58,7 @@ body{background-color:#<?php echo $this['config']->get('bg-color'); ?>}
 <?php endif; ?>
 
 <?php if ($this['config']->get('video')) : ?>
-    <div id="buttonbar"><button id="play" onclick="vidplay()">&gt;</button></div> 
+    <div id="buttonbar"><button id="play" onclick="vidplay()">||</button></div> 
 <?php endif; ?>
     
 
@@ -189,12 +189,14 @@ body{background-color:#<?php echo $this['config']->get('bg-color'); ?>}
 <?php if ($this['modules']->count('bottom-a')) : ?>
 <div class="bottom-a-outer">
     <div style="padding:30px 0" class="wrapper clearfix">
+    <a name='testimonials'></a>
     <section id="bottom-a" class="grid-block"><?php echo $this['modules']->render('bottom-a', array('layout'=>$this['config']->get('bottom-a'))); ?></section>
 	</div>
 </div>
 <?php endif; ?>
 
 <?php if ($this['modules']->count('bottom-b')) : ?>
+<a name='projects'></a>
 <div class="bottom-b-outer">
     <div style="padding:30px 0" class="wrapper clearfix">
     <section id="bottom-b" class="grid-block"><?php echo $this['modules']->render('bottom-b', array('layout'=>$this['config']->get('bottom-b'))); ?></section>

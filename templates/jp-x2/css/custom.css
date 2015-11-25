@@ -31,7 +31,7 @@
 	float: right;
 	height: 50px;
 	width: 135px;
-	background-image: url('../images/email.png');
+	
 	background-repeat: no-repeat;
  	}
  	
@@ -42,3 +42,26 @@
 	background-image: url('../images/email_mouseover.png');
 	
  	}
+ 	
+ .sap_top_icons:hover
+ 	{
+	
+	background-image: url('../images/email_mouseover.png');
+	
+ 	}
+ 	
+ 	
+  .sap_testimonials em
+ {
+ 	color: #000000;
+
+ }
+ 	
+ .sap_testimonials h3
+ {
+ 	color: #754792;
+ 	font-size: 38px;
+	line-height: 38px;
+	font-family: "OpenSansLight";
+ }
+ 
